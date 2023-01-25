@@ -1,0 +1,24 @@
+timestamp=1674675464764
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=8|0labo1.mgf|1594|0
+
+[demo_combinatoire_tb]
+I=0*1594
+M=11|2|vef|1674675464747|../src/demo_combinatoire_tb.vhd|0*1208*0xe802e3d1a8a6acc4727274ffc45b027e8e9c4f9e|0*1489*0x23b75c12e3e89f2ef000564498faa8c2
+R=../src/demo_combinatoire_tb.vhd|16
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|27cb5ee625a21cf8f4e9bf6949ed8690d208d09634eb5d394a44a694f81013d736c4f9b78da651dbae2ad5a3cfa77b80
+
+[top_labo_1]
+I=0*800
+M=11|2|vef|1674675464741|../src/top_labo_1.vhd|0*240*0x5aef5b45c4ba327cc63f7937d3e0534f40f3b18b|0*715*0x23b75c12e3e89f2ef000564498faa8c2
+R=../src/top_labo_1.vhd|16
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|86e4e550c819d5cfa205e618102042789058459fd7682d95171481ec0d3c9fe5c9411d12cd53241c717aa5cb08bef8a0
+
+[~U]
+demo_combinatoire_tb=11|0*1044|
+top_labo_1=11|0*0|

@@ -1,0 +1,15 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+labo1=0
+[COMPILESTATUS|.\src\top_labo_1.vhd]
+FileTimeLow=4034902953
+FileTimeHigh=31011052
+Status=Error
+[COMPILESTATUS|.\src\demo_combinatoire_tb.vhd]
+FileTimeLow=4034902953
+FileTimeHigh=31011052
+Status=Error
+[COMPILESTATUS|.\src\demo_combinatoire.vhd]
+FileTimeLow=4034902953
+FileTimeHigh=31011052
+Status=Error
