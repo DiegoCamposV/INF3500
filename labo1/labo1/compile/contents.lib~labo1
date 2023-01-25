@@ -1,5 +1,7 @@
-5
+9
 ~E 1 "../src/demo_combinatoire.vhd" 17 demo_combinatoire
 ~A 1 "../src/demo_combinatoire.vhd" 33 arch1
 ~E 1 "../src/demo_combinatoire_tb.vhd" 16 demo_combinatoire_tb
+~A 1 "../src/demo_combinatoire_tb.vhd" 22 arch
 ~E 1 "../src/top_labo_1.vhd" 16 top_labo_1
+~A 1 "../src/top_labo_1.vhd" 31 arch
