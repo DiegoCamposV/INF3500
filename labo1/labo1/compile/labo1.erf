@@ -1,39 +1,5 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/top_labo_1.vhd" 
-MESSAGE "Compile Entity "top_labo_1"" 
-MESSAGE "Compile Architecture "arch" of Entity "top_labo_1"" 
-MESSAGE "File: C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire_tb.vhd" 
-MESSAGE "Compile Entity "demo_combinatoire_tb"" 
-MESSAGE "Compile Architecture "arch" of Entity "demo_combinatoire_tb"" 
-MESSAGE "File: C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 
+MESSAGE "File: demo_combinatoire.vhd" 
 MESSAGE "Compile Entity "demo_combinatoire"" 
 MESSAGE "Compile Architecture "arch1" of Entity "demo_combinatoire"" 
-MESSAGE "Incorrect order of units detected." 
-MESSAGE "Automatic reorder and incremental recompilation of required units in progress." 
-MESSAGE "Top-level unit(s) detected:" 
-MESSAGE "Entity => demo_combinatoire_tb" 
-MESSAGE "Entity => top_labo_1" 
-MESSAGE "File: C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire_tb.vhd" 
-MESSAGE "Compile Architecture "arch" of Entity "demo_combinatoire_tb"" 
-ERROR COMP96_0078: "Unknown identifier "demo_combinatoire"." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire_tb.vhd" 32 18
-ERROR COMP96_0056: "Cannot find referenced entity declaration "demo_combinatoire"." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire_tb.vhd" 32 18
-ERROR COMP96_0055: "Cannot find context item "demo_combinatoire"." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire_tb.vhd" 32 18
-MESSAGE "File: C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/top_labo_1.vhd" 
-MESSAGE "Compile Architecture "arch" of Entity "top_labo_1"" 
-ERROR COMP96_0078: "Unknown identifier "demo_combinatoire"." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/top_labo_1.vhd" 40 14
-ERROR COMP96_0056: "Cannot find referenced entity declaration "demo_combinatoire"." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/top_labo_1.vhd" 40 14
-ERROR COMP96_0055: "Cannot find context item "demo_combinatoire"." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/top_labo_1.vhd" 40 14
-MESSAGE "File: C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 
-MESSAGE "Compile Entity "demo_combinatoire"" 
-ERROR COMP96_0018: "Identifier expected." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 28 1
-MESSAGE "Compile Architecture "arch1" of Entity "demo_combinatoire"" 
-ERROR COMP96_0015: "')' expected." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 35 21
-ERROR COMP96_0019: "Keyword 'when' expected." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 37 5
-ERROR COMP96_0015: "';' expected." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 37 5
-ERROR COMP96_0661: "Expression with a sequence of different logical operators is not allowed. Parenthesize subexpressions containing and, or, xor, and xnor operators." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 40 5
-ERROR COMP96_0015: "')' expected." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 40 55
-ERROR COMP96_0019: "Keyword 'when' expected." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 42 5
-ERROR COMP96_0015: "';' expected." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 42 5
-ERROR COMP96_0015: "',' expected." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 48 9
-ERROR COMP96_0111: "Labels do not match." "C:/Users/houda/OneDrive - polymtl.ca/Nour/bac_inf/H23/INF3500/TPS/INF3500/labo1/labo1/src/demo_combinatoire.vhd" 52 5
-FAILURE "Compile failure 16 Errors 0 Warnings  Analysis time :  32.0 [ms]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]" 
