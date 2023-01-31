@@ -15,7 +15,7 @@ use work.all;
 
 entity demo_combinatoire_tb is
     generic (
-        W_tb : positive := 4
+        W_tb : positive := 16
     );
 end demo_combinatoire_tb;
 
@@ -29,7 +29,7 @@ constant periode : time := 10 ns;
 begin
     
     -- instanciation du module à vérifier UUT (Unit Under Test)
-    UUT : entity demo_combinatoire(arch1)
+    UUT : entity demo_combinatoire_ameliore(arch1)
         generic map (W => W_tb)
         port map (
             A => A_tb,

@@ -30,23 +30,23 @@ end;
 
 architecture arch of top_labo_1 is
 
-constant W : positive := 4;
+constant W : positive := 16;
 signal A : unsigned(W - 1 downto 0);
 signal pair, divpar4, divpar5, divpar8 : std_logic;
 
 begin
     
     -- instanciation de l'unité du vote à majorité qualifiée
-UUT : entity demo_combinatoire(arch1)
+UUT : entity demo_combinatoire_ameliore(arch1)
         generic map (W)
         port map (A, pair, divpar4, divpar5, divpar8);
         
     -- connexion des interfaces de la carte aux ports d'entrée de l'unité du vote
-    A <= unsigned(sw(15 downto 12));    -- l'entrée A; noter la conversion explicite de type
+    A <= unsigned(sw(15 downto 0));    -- l'entrée A; noter la conversion explicite de type
     led(0) <= pair;                     -- sortie pair
     led(1) <= divpar4;                  -- sortie divisible par 4
     led(2) <= divpar5;                  -- sortie divisible par 5
     led(3) <= divpar8;                  -- sortie divisible par 8
-    led(15 downto 12) <= sw(15 downto 12); -- pour confirmer le fonctionnement des commutateurs
+    --led(15 downto 11) <= sw(15 downto 11); -- pour confirmer le fonctionnement des commutateurs
     
 end arch;
